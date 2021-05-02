@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Assistant:wght@200&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="cuerpodos">
+    <header>
+        <nav class="navbar">
+            <img src="CSS/logodef.png" alt="LogoWiki-futbol">
+            <div class="contenedoruno">
+                <a class="uno" href="index.html">P&Aacute;GINA PRINCIPAL</a>
+                <a class="dos" href="contact us.html">ABOUT US <img src="CSS/img/person-fill.svg"
+                    alt=""></a>
+            </div>
+        </nav>
+    </header>
+    <div class=formcaja></div>
+    <form action="#" method="get">
+        <H3>SUGERENCIAS</H3>
+        <!-- Nombre -->
+        
+            <fieldset>
+                <legend>Datos Personales</legend>
+
+                <label for="nombre">Nombre</label> <br />
+                <input class="cont" type="text" id="nombre" name="nombre" placeholder="Escriba su nombre"
+                    required="true" />
+                <br>
+                <!-- Apellido -->
+                <label for="apellido">Apellido:</label> <br />
+                <input class="cont" type="text" id="apellido" name="apellido" placeholder="Escriba su apellido"
+                    required="true" /> <br />
+                <!--Correo-->
+                <label  for="email">Email</label> <br />
+                <input class="cont" type="email" id="email" name="email" placeholder="ejemplo@gmail.com" /><br />
+
+            </fieldset >
+            <fieldset>
+                <legend>Seleci&oacute;n de preferencias</legend>
+                <!-- Seleccion Multiple -->
+                <label >Pocision Favorita </label> <br />
+                <input type="checkbox" id="arqueros" name="posicion" value="arqueros" />
+                <label for="arqueros">ARQUEROS</label><br />
+                <input type="checkbox" id="defensas" name="posicion" value="defensas" />
+                <label for="defensas">DEFENSAS</label><br />
+                <input type="checkbox" id="mediocampo" name="posicion" value="mediocampo" />
+                <label for="mediocampo">MEDIOCAMPO</label><br />
+                <input type="checkbox" id="delantero" name="posicion" value="delantero" />
+                <label for="delantero">DELANTERO</label><br />
+                <!--multiple="true"-->
+                <label  for="gustos">Mejor Jugador Del Mundo: </label> <br />
+                <select id="jugador" name="jugador">
+                    <option value="ninguno" selected="true">...</option>
+                    <option value="messi">Messi</option>
+                    <option value="cr7">Cristiano Ronaldo</option>
+                    <option value="neymar">Neymar</option>
+                    <option value="mbappe">Mbappe</option>
+                    <option value="lewandowski">Lewandowski</option>
+                    <option value="ramos">Sergio Ramos</option>
+                    <option value="van dijk">Virgil Van DIjk</option>
+                    <option value="haland">Haland</option>
+                    <option value="dimaria">Di Maria</option>
+                    <option value="navas">Keylor Navas</option>
+                    <option value="otro">Otro</option>
+                </select><br>
+                <label for="otro">nombre del jugador de su agrado:</label><br>
+                <input type="text" name="otro" id="otro"></fieldset>
+                <br/>
+                <fieldset>
+                <legend for="comentario">Comentario o Sugerencias</legend><br>
+                <textarea class="cont" name="comentario" id="comentario" cols="50" rows="3"
+                    placeholder="  ...Escriba Una sugerencia para ayudarnos a mejorar"></textarea><br>
+                <input type="submit" value="Enviar" />
+            
+            </fieldset>
+
+    </form>
+</div>
+
+</body>
+
+</html>

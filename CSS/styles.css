@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Assistant:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.cuerpodos{
+    margin-top: 20px;
+    background-image: url(img/vienna-reyes-qCrKTET_09o-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+h1 {
+    font-family: 'Baloo Paaji 2', cursive;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    font-size: 60px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 25px 10px 10px 0;
+    margin: 0px 0px 0px 0px;
+    color: #d1fdff;
+    display: inline-block;
+    /* background-color: rgba(9, 9, 39, 0.719); */
+    border-radius: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(img/alex-azabache-1cPWeb3Ud30-unsplash.jpg);
+    margin-top:auto;
+}
+
+/* * ============ HEADER ========== */
+
+header nav {
+    height: auto;
+    box-sizing: border-box;
+
+}
+.navbar {
+    font-family: 'Baloo Paaji 2';
+    font-size:15px;
+    padding: 0px;
+    margin: -20px 0 0 0;
+    /* background-color:#0054A7; */
+    background: linear-gradient(to top, #8DC2F7, #3773AF);
+    display: grid;
+    grid-template-columns: 73% 30%;
+    position: sticky;
+    top: 0;
+}
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 17px 20px;
+    margin: 0;
+    width: 85%;
+    text-align: center;
+    transition: 1s ease-out all;
+    padding-bottom: 47px;
+}
+.navbar [src="CSS/logodef.png"] {
+    width: 11.5rem;
+    height: 4rem;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contenedoruno {
+    display: flex;
+    width: 90%;
+    height: 60px;
+}
+
+.contenedoruno img {
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    padding: -10px 0 -10px 10px;
+    margin: -9px 0 1rem 0;
+}
+
+.navbar a:hover {
+    background: #ffffff;
+    color: rgb(36, 31, 31);
+    text-decoration: none;
+}
+
+/* * ===== CONTENEDOR IMAGEN ====== */
+.contenedor-imagen img {
+    width: 100%;
+    height: 100%;
+    /* vertical-align: top; */
+    object-fit: cover;
+    object-position: 0 bottom;
+}
+
+/* * ============ #blog ============ */
+
+#blog {
+    min-height: 100vh;
+}
+
+.contenido {
+    background-color: rgba(11, 27, 34, 0.5);
+    border-radius: 10px;
+    margin: 10px 0 30px 0;
+    padding-bottom: 1rem;
+    height:auto;
+    width: auto;
+    /* border: 1px solid red; */
+}
+
+#blog .contenido p {
+    padding: 15px;
+    margin: 5px 0px 15px 0px;
+    color: #ffffff;
+    background-color: #5d6366da;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: justify;
+}
+
+.post img {
+    border: 1px solid rgb(3, 41, 102);
+    border-radius: 10px;
+    height: 45rem;
+    width: 100%;
+    display: inline-block;
+    box-shadow: 3px 5px 10px rgba(27, 109, 241, 0.548);
+}
+
+.post a{
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #0062c4;
+    color: #D7DBDD;
+    margin-left: 25px;
+    padding: .5rem;
+    border-radius: 10px;
+    transition: 1s ease-out all;
+}
+
+.about{
+    font-family: 'Advent Pro', sans-serif;
+    margin:8rem 3rem;
+    font-size:18px;
+    font-weight:600;
+}
+#about, .izquierda, .derecha{
+    border-radius: 20px;
+    padding: 2rem;
+    margin:2rem 0;
+    background-color:#34495E;
+    color: #b9bcc0;
+}
+#about, .izquierda:hover, .derecha:hover{
+    background-color:white;
+    color:black;
+    transition: 1s ease-out all;
+}
+fieldset{
+    border:1px solid rgb(255, 255, 255);
+    padding:1rem;
+    margin:.1rem
+}
+.post a:hover {
+    color: #fff;
+    background-color: black
+}
+
+#blog .contenedor {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* * ============ ASIDE =========== */
+
+aside {
+    font-family: 'Baloo Paaji 2', cursive;
+    ;
+    min-width: 20%;
+    margin: 90px 10px 10px 150px;
+    height: 100%;
+    background: #1D2F3D;
+    padding: 20px;
+    border-radius: 3px;
+    position: sticky;
+    top: 20px
+}
+
+aside .titulo {
+    font-weight: normal;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #f2f2f2;
+}
+
+aside .indice a {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 10px;
+    color: #FFCD48;
+}
+/* =============footer=========== */
+/* ================================ */
+footer {
+      display: flex;  
+      justify-content: center;
+      background-color:#34495e8a;
+      height: 3rem;
+}
+footer a img {
+    height:2rem;
+    width:2rem;
+    margin:0.6rem .6rem;
+    /* border-radius:15px */
+}
+footer a:hover{
+    background-color:#E5E7E9;
+    border-radius:100%;
+    transition:1s ease-in-out 0s;   
+}
+/* ===================header============ */
+/*================== about us===================== */
+/* ============================================== */
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Assistant:wght@200&display=swap');
+
+/* #blog {
+    border-radius:20px;
+    background-color:#34495ecc;
+    padding:2rem;
+    margin:2rem 0
+} */
+
+/* ========contact us=========== */
+
+/* ============================= */
+.formcaja {
+    /* text-align: center; */
+    /* display: flex; */
+    margin-top: 3rem;
+    border-radius: 10px;
+    display: block;
+    /* justify-content: center; */
+    box-sizing: border-box;
+    color: white;
+}
+form{
+    background-color: #283747da;
+    border-radius: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 600px;
+    padding: 3rem;
+}
+input[type=text] {
+    margin: 1rem 0rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(145, 227, 241, 0.863);
+    width: 250px;
+    color:rgb(216, 216, 216);
+    font-size:20px;
+}
+input[type=email] {
+    margin: 1rem 0rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(145, 227, 241, 0.863);
+    width: 250px;
+    color:rgb(221, 224, 226);
+    font-size: 20px;
+}
+input[type=submit]{
+    display:block;
+    border-radius: 12px;
+    padding:1rem;
+    margin-top: 1rem;
+    margin-left:auto;
+}
+
+::placeholder {
+    color: #ffffffd0;
+    opacity: .4;
+}
+
+:focus {
+    outline: none;
+}
+
+.enunciado {
+    color: #051b29ea;
+}
+
+textarea {
+    margin-left: 0.5rem;
+    border: 2px solid #ebecec;
+    background-color: #e2eaf0e1;
+    border-radius: 10px;
+    height: 10rem;
+    width: 450px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+h3 {
+    /* color: rgba(145, 227, 241, 0.863); */
+    text-align: center;
+    font-size: 28px;
+    display: block;
+    /* background: linear-gradient(to bottom, #1877b2b4, rgba(145, 227, 241, 0.863)); */
+    color:#ffffff;
+    border-radius: 15px;
+    font-family: 'Francois One', sans-serif;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@500&display=swap');
+legend{
+    padding:2px 4px;
+    color: #d3d6d1;
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 10px;
+    font-weight: 100;
+    font-size:25px;
+    font-family: 'Farro', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+label {
+    color:rgb(255, 255, 255);
+    font-size:20px;
+    font-weight: 100;
+    font-family: 'Jockey One',sans-serif;
+    text-transform: uppercase;
+    /* padding: 1rem; */
+}
+table {
+    color: #d1fdff;
+}
+
+/* 
+
+
+
+fieldset{
+
+} */
+/*========== ================================= */
+/* =============0NAVBARESPECIAL============== */
